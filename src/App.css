@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-}
-
-h4 {
-  
-  color: burlywood;
+  background-color: #800020;
 }
 
 img {
@@ -18,6 +14,23 @@ img {
   flex-wrap: wrap;
   width: 75%;
   margin: auto;
+}
+
+.Movie{
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  /* border: 5px solid gray; */
+  margin: 5px;
+  vertical-align: middle;
+}
+
+.Movie h4 {
+  display: none;
+  color: burlywood;
+}
+.Movie:hover h4 {
+  display: contents;
 }
 
 .textContainer {
@@ -35,18 +48,6 @@ img {
 text-align: center;
    z-index: 999;
 }
-
-.Movie{
-  position: relative;
-  display: inline-block;
-  width: 200px;
-  border: 5px solid gray;
-}
-
-/* .Movie:hover {
-  font-size: 18pt;
-  position: absolute;
-} */
 
 .App-logo {
   height: 40vmin;
