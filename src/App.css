@@ -7,6 +7,12 @@ h4 {
   color: burlywood;
 }
 
+img {
+  object-fit: scale-down;
+  height: 100%;
+  width: 100%;
+}
+
 .MovieBucket{
   display: flex;
   flex-wrap: wrap;
