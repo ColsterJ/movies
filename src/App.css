@@ -27,7 +27,7 @@ img {
 .Movie h4 {
   display: none;
   color: burlywood;
-  font-size: 16pt;
+  font-size: 18pt;
 }
 .Movie:hover h4 {
   display: contents;
