@@ -2,6 +2,46 @@
   text-align: center;
 }
 
+h4 {
+  
+  color: burlywood;
+}
+
+.MovieBucket{
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: auto;
+}
+
+.textContainer {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;       
+}
+
+.imageContainer{
+  object-fit: scale-down;
+  height: 100%;
+  width: 100%;
+text-align: center;
+   z-index: 999;
+}
+
+.Movie{
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  border: 5px solid gray;
+}
+
+/* .Movie:hover {
+  font-size: 18pt;
+  position: absolute;
+} */
+
 .App-logo {
   height: 40vmin;
 }

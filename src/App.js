@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import axios from "axios";
 
+
 console.log(axios);
 
 class App extends React.Component {
@@ -30,12 +31,22 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <ul>
+        <div className="MovieBucket">
           {this.state.movies.map(movie => {
             const title = movie.title;
-            return <li key={movie.id}>{title}</li>;
+            const image = "https://image.tmdb.org/t/p/w500" + movie.poster_path;
+            return <div 
+            class="Movie" key={movie.id}>
+              <div className='textContainer'>
+                <h4>{title}</h4>
+              </div>
+
+              <div className='imageContainer'>
+                <img src={image}></img>
+              </div>
+            </div>
           })}
-        </ul>
+        </div>
       </div>
     );
   }
