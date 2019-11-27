@@ -21,13 +21,13 @@ img {
   display: inline-block;
   width: 200px;
   /* border: 5px solid gray; */
-  margin: 5px;
-  vertical-align: middle;
+  margin: auto;
 }
 
 .Movie h4 {
   display: none;
   color: burlywood;
+  font-size: 16pt;
 }
 .Movie:hover h4 {
   display: contents;
@@ -36,9 +36,10 @@ img {
 .textContainer {
   position: absolute;
   z-index: 999;
-  margin: 0 auto;
+  margin: 50% auto;
   left: 0;
-  right: 0;       
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .imageContainer{
