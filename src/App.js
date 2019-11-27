@@ -31,6 +31,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <div className="TopText">Bootleg Cinemas</div>
         <div className="MovieBucket">
           {this.state.movies.map(movie => {
             const title = movie.title;
